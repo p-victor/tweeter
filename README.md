@@ -17,5 +17,5 @@ This repository is the starter code for the project: Students will fork and clon
 - Node 5.10.x or above
 
 ## Screnshots
-!["Desktop site"](https://github.com/p-victor/tweeter/tree/master/docs/desktop.png)
-!["Desktop site"](https://github.com/p-victor/tweeter/tree/master/docs/mobile.png)
+!["Desktop site"](https://github.com/p-victor/tweeter/blob/master/docs/desktop.png)
+!["Desktop site"](https://github.com/p-victor/tweeter/blob/master/docs/mobile.png)
