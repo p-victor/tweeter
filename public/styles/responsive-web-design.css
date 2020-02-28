@@ -1,0 +1,26 @@
+@media screen and (min-width : 1024px)  {
+  nav {
+    background-color: #4056A1;
+  }
+  main, .main-header {
+    top: 3.75em
+  }
+  main {
+    margin: 1em;
+    position: relative;
+    width: auto;
+    margin-left: 35%;
+  }
+  .main-header {
+    width: 35%;
+    padding: 1em;
+    background-color: transparent;
+    position: fixed;
+    height: 100%;
+    display: inline;
+    overflow: auto;
+    }
+  .avatar {
+    background-color:  darkkhaki;
+  }
+}

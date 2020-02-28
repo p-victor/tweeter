@@ -1,0 +1,63 @@
+#main-container {
+  /* TODO: css for the main container of the tweets */
+}
+
+article.tweet {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 10px;
+  border: 0.125em solid #545149;
+  opacity: 0.8;
+}
+
+article.tweet:hover {
+  box-shadow: 0.3em 0.3em #C5CBE3;
+  opacity: 1;
+}
+
+article.tweet:hover .user-alias{
+  visibility: visible;
+}
+
+article.tweet:hover i{
+  visibility: visible;
+}
+
+article.tweet > header {
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+}
+
+article.tweet .user-alias {
+  visibility: hidden;
+  color: #C5CBE3;
+  margin-left: auto;
+  font-weight: bold;
+}
+
+article.tweet header > img {
+  width: 2em;
+  height: 2em;
+  margin-right: 0.5em;
+}
+
+article.tweet p {
+  font-weight: 700;
+  padding: 0.5em;
+  margin: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+article.tweet footer{
+  border-top: 0.125em solid #545149;
+  padding: 0.5em;
+  font-size: smaller;
+  display: flex;
+}
+
+article.tweet div{
+  margin-left: auto;
+  visibility: hidden;
+}

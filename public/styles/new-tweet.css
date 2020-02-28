@@ -1,0 +1,34 @@
+.new-tweet {
+  margin: 1em;
+}
+
+form {
+  font-family: 'Bungee', 'sans-serif' ;
+  display: flex;
+  flex-wrap: wrap;
+  padding: none;
+}
+
+.new-tweet > form > textarea {
+  font-family: 'Source Sans Pro', 'sans-serif' ;
+  font-weight: 700;
+  resize: none;
+  outline: none;
+  border: none;
+  background: transparent;
+  border-bottom: 3px solid black;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  flex-basis: 100%;
+}
+
+.new-tweet > form > input {
+  background-color: #4056A1;
+  color:  #FFFFFF;
+  border: none;
+  text-align: left;
+}
+
+.counter {
+  margin-left: auto;
+}

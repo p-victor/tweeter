@@ -1,0 +1,5 @@
+.error {
+  color: orangered;
+  border: 0.125em solid orangered;
+  width: 100%;
+}

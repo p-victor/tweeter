@@ -1,0 +1,58 @@
+nav {
+  height: 3.75em;
+  width: 100%;
+  padding: 1.5em;
+  z-index: 1000;
+  top: 0;
+  position: fixed;
+  overflow: hidden;
+  background-color: transparent;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+}
+
+nav header {
+  font-size: larger;
+  font-family: 'Bungee', 'sans-serif' ;
+}
+
+.write-new-tweet {
+  height: 3em;
+  margin-left: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.write-new-tweet i {
+  align-self: flex-end;
+  position: absolute;
+}
+
+.write-new-tweet > span {
+  padding-top: 0.5em;
+  align-self: flex-start;
+  width: 100%;
+}
+
+.write-new-tweet:hover i {
+  color: orange;
+  animation-duration: 0.5s;
+  animation-name: bounce;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  from {
+    padding-top: 0em;
+    padding-bottom: 0.4em;
+  }
+  to {
+    padding-top:  0.4em;
+    padding-bottom: 0em;
+
+  }
+}
+
